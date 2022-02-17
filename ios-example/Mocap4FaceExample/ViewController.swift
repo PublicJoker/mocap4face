@@ -38,7 +38,7 @@ class ViewController: UIViewController, VideoCaptureDelegate, SCNSceneRendererDe
         // Initialize the API
         // Get your own key at https://studio.facemoji.co
         // Without the key the API works for a limited time only
-        FacemojiAPI.initialize("<YOUR KEY HERE>").whenDone { activated in
+        FacemojiAPI.initialize("ibestumm3untiurjmg52j6zsvwyv2nl5jreph4aqesuyfohii2e7f3q").whenDone { activated in
             if activated {
                 print("mocap4face: API Key Validation Successful")
             } else {
